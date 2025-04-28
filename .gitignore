@@ -54,3 +54,12 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Docker volumes
+data/
+mongo_data/
+redis_data/
+postgres_data/
+
+# Prisma Client
+generated/
